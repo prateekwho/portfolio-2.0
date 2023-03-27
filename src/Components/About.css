@@ -1,0 +1,86 @@
+  @import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+.about {
+    background-color: #fff;
+    padding: 15rem 0;
+}
+
+@media (max-width: 1020px) {
+.about {
+    padding: 8rem 0;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 107rem;
+    padding: 0 4rem;
+}
+
+.about-content {
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+}
+
+@media (max-width: 1020px) {
+.about-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.img-side img{
+    border-radius: 1.7rem;
+    height: 42rem;
+    width: 48rem;
+}
+
+@media (max-width: 1020px) {
+.img-side img{
+        width: 30rem;
+        height: 24rem;
+      }
+}
+
+.text-side {
+    padding-right: 1.5rem;
+}
+
+ @media (max-width: 1020px) {
+.text-side {
+    max-width: 54rem;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+.text-side {
+    padding-right: 0;
+  }
+}
+
+.text-side h4 {
+    color: #147efb;
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.text-side h3 {
+    color: #2d2e32;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+}
+
+.text-side p {
+    color: rgb(55 65 81);;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 1.5
+}
