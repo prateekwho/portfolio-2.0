@@ -11,3 +11,8 @@ body {
   font-family: 'Poppins', sans-serif;
   position: relative;
 }
+
+html{
+  font-size: 62.5%;
+}
+
