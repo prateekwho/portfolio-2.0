@@ -6,7 +6,7 @@ export const items = [
     id: 1,
     name: "E-commerce Website",
     des: "This is a Disney+ Hotstar clone project, built using HTML, CSS, and Vanilla JavaScript. It aims to replicate the basic functionality and design of Disney+ Hotstar, a popular streaming service for movies and TV shows.",
-    stack: ["React", "Tailwind CSS"],
+    stack: ["React", "Tjailwind CSS"],
     img: Ecommerce,
     links: {
       github: "https://github.com/prateekwho/disney-hotstar-clone",
