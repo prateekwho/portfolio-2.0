@@ -47,7 +47,7 @@
 }
 
 .home-text span a :hover {
-  color: #147efb;
+  color: var(--hover-color);
 }
 
 .home-img {

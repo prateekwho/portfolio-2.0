@@ -25,6 +25,11 @@ footer h3 {
   font-size: 2.3rem;
 }
 
+.footer-socials a :hover {
+  color: var(--hover-color);
+  font-size: 2.3rem;
+}
+
 @media (max-width: 550px) {
   .footerc {
     flex-wrap: wrap;
