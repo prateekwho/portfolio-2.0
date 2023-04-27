@@ -20,8 +20,8 @@ export const items = [
     stack: ["Vanilla JS", "CSS"],
     img: Disney,
     links: {
-      github: "https://github.com/prateekwho/disney-hotstar-clone",
-      website: "https://disney-hotstar-clone-pearl.vercel.app/",
+      github: "https://github.com/prateekwho/react-ecommerce",
+      website: "https://react-ecommerce-drab.vercel.app/",
     },
   },
 ];
