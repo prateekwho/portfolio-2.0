@@ -8,12 +8,14 @@ function Projects() {
     <section id="project">
       <div className="container">
         <div className="project-content">
-          <p>portfolio</p>
+          <p>projects</p>
           <h3>Each project presents a unique development challenge. 🧩</h3>
           <div className="projects-grid">
             {items.map((item) => (
               <div key={item.id} className="pro-card">
-                <img src={item.img} alt="" className="pro-img" />
+                <div className="pro-img">
+                  <img src={item.img} alt="website" />
+                </div>
                 <div className="pro-text">
                   <h3>{item.name}</h3>
                   <h4>{item.des}</h4>
