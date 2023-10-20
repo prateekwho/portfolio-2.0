@@ -1,4 +1,4 @@
-import Ecommerce from "../../images/ecommerce.png";
+import Ecommerce from "../../images/Ecommerce.png";
 
 export const items = [
   {
