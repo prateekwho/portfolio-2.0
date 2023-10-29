@@ -1,4 +1,5 @@
 import Ecommerce from "../../images/Ecommerce.png";
+import Pratibela from "../../images/pratibela.png";
 
 export const items = [
   {
@@ -10,6 +11,17 @@ export const items = [
     links: {
       github: "https://github.com/prateekwho/dailypacks",
       website: "https://dailypacks.vercel.app/",
+    },
+  },
+  {
+    id: 2,
+    name: "Blog Website",
+    des: "My React and SCSS powered blog hub for captivating blog content with a user-friendly interface, responsive design, and a variety of topics.",
+    stack: ["React", "SCSS"],
+    img: Pratibela,
+    links: {
+      github: "https://github.com/prateekwho/pratibela",
+      website: "https://pratibela.vercel.app/",
     },
   },
 ];
